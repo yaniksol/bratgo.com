@@ -1,0 +1,427 @@
+<html>
+	<head>
+		<title>	BBC clone </title>
+		
+			
+		
+		<style type="text/css" >
+			
+			#topbar {
+				width: 1050px;
+				height: 40px;
+				margin: 0 auto;
+				
+				
+				}
+				
+			#logo {
+				margin:10px 10px;
+				float: left;
+				}
+				
+			body {
+				margin:0;
+				padding: 0;
+				font-family:  Helvetica, Arial, sans-serif;
+			}
+			
+			#singin-image {
+				height: 18px;
+				width: 25px;
+				float:left;
+				margin: 13px 8px;
+				}
+			
+			#wigly-image {
+				height: 100%;
+				width: 10px;
+				float:left;
+				margin: 0px 0px 0px 5px;
+				}
+				
+			#bell-image {
+				height: 50%;
+				width: 25px;
+				float:left;
+				margin: 10px 10px 0px 10px;
+				}
+			#downarrow {
+				height: 30%;
+				width: 9px;
+				float:left;
+				margin: 15px 10px 0px 0px;
+				}
+			#search {
+				height:50%;
+				float:left;
+				}
+			#singin-text {
+				
+				font-weight: bold;
+				font-size: 90%;
+				position:relative;
+				top:14px;
+				padding-right: 50px;
+				}
+			#other-text {
+				float:left;
+				font-weight: bold;
+				font-size: 90%;
+				position:relative;
+				top:14px;
+				padding: 0px 15px;
+				}
+				
+			.topbar-section {
+				float:left;
+				border-left: 1px #CCCCCC solid;
+				height:100%;
+				
+				}
+			#search {
+				float:left;
+				background-color:#E4E4E4;
+				font-weight:bold;
+				border:none;
+				position:relative;
+				top: 10px;
+				left: 10px;
+				height: 60%;
+				}
+			.clear {
+				clear:both;
+				}
+				
+			#menu-bar-container {
+				background-color:#BB1919;
+				height:60px;
+				border-top: #CCCCCC 1px solid;
+				}
+			#menu-bar  {
+				margin:0 auto;
+				width:1000px
+				}
+			h1 {
+				padding: 0;
+				margin: 0 ;
+				font-weight: normal;
+				font-size: 40px;
+				color:white;
+				padding-top:10px;
+				float:left;
+				}
+			
+			#local-news a:hover {
+				text-decoration:underline;				
+				}
+			#local-news a {
+				color:white;
+				padding: 4px 30px 4px 10px;
+				border: 1px #CCCCCC solid ;
+				float: right;
+				font-size:19px;
+				position: relative;
+				top: 15px;
+				text-decoration: none;
+				}
+			#third-line-comtainer {
+				background-color:#A91717;
+				width:100%;
+				height:35px;
+				}
+			#third-line {
+				width: 1000px;
+				margin:0 auto;
+				}
+			#third-line a {
+				text-decoration:none;
+				color:#eae1e1;
+				}
+			#third-line a:hover{
+				text-decoration: underline;
+				}
+			#Home {
+				float:left;
+				color:#eae1e1;
+				position:relative;
+				top: 9px;
+				font-size: 15px;
+				padding: 0 10;
+				}
+			.third-line-text {
+				float:left;
+				position:relative;
+				top: 9px;
+				font-size: 15px;
+				border-left: 1px solid #CCCCCC;
+				padding: 0 10;
+				}
+			#downarrow2 {
+				height: 35%;
+				width: 14px;
+				float:left;
+				margin: 12px 10px 0px 0px;
+				}
+			#page-container {
+				
+				width: 1000px;
+				height:1000px;
+				margin: 0 auto;
+				}
+			#left-part {
+				border-right: 1px solid #CCCCCC;
+				border-bottom: 1px solid #CCCCCC;
+				height: 290px;
+				width:670px;
+				
+				}
+			h2 {
+				font-weight:normal;
+				color:#404040;
+				font-size: 20px;
+				border-bottom: 3px solid #BB1919;
+				width: 110px;
+				margin-top:10px;
+				}
+			
+			h3 a {
+				text-decoration:none;
+				font-size: 30px;
+				color:#686868;
+				}
+			h3 a:hover {
+				color:#1167A8;
+				}
+			p {
+				
+				font-size:90%;
+				color: #686868;
+								
+				}
+			p a {
+				line-height:20px;
+				text-decoration:none;
+				color: #686868;
+				
+				}
+			#two-hours-ago {
+				margin: 0 20;
+				font-size: 80%;
+				color: #686868;
+				
+				}
+			#two-hours-ago a {
+				text-decoration:none;
+				color:#a61b1b;
+				}
+			
+			#asda {
+				height:220px;
+				width: 400px;
+				position:relative;
+				top:-240;
+				left:250 ;
+				margin:0;
+				padding:0;
+				}
+			
+			#jedan a {
+				float:left;
+				text-decoration:none;
+				position:relative;
+				top: -238px;
+				color:#686868;
+				font-size: 90%;
+				margin-right:35px;
+				}
+			
+			#dva a{
+				float:left;
+				text-decoration:none;
+				position:relative;
+				top: -238px;
+				color:#686868;
+				font-size: 90%;
+				}
+			#jedan a:hover {
+				color: #1167a8;
+				}
+			#dva a:hover {
+				color: #1167a8;
+				}
+			#linija {
+			border-top:2px solid #686868;
+			width: 40px;
+			float:left;
+			}
+			#watch-listen {
+				background-color: blue;
+				width: 300px;
+				height: 291px;
+				float:right;
+				position:relative;
+				top: -955px;
+				left: -200px;
+				}
+			#naslov {
+				font-size: 25px;
+				margin-left:15px;
+				}
+			#prva-slika {
+				height:60px;
+				width: 110px;
+				float:left;
+				margin-right:5px
+				}
+			#prvi-dio {
+				margin-left : 12px;
+				}
+			#prvi-dio a {
+				text-decoration:none;
+				color:black;
+				font-weight: bold;
+				
+				}
+			#prvi-dio a:hover {
+				color: #686868;
+				}
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<div id="prvi-bar">
+		<div id="topbar">
+		
+			<img src="bbc-logo.png" id="logo">
+			
+			
+				<div id="singin-div" class="topbar-section" >
+					<img src="singin.png" id="singin-image">
+					<span id="singin-text" >Sing in</span>
+				</div>
+				
+				<div id="bell-div">
+				<img src="wigly.png" id="wigly-image">
+				<img src="bell.png" id="bell-image">
+				</div>
+				
+				<div id="other-div" class="topbar-section">
+					<span id="other-text" >News</span>
+				</div>
+				
+				<div id="other-div" class="topbar-section">
+					<span id="other-text" >Sport</span>
+				</div>
+				
+				<div id="other-div" class="topbar-section">
+					<span id="other-text" >Weather</span>
+				</div>
+				
+				<div id="other-div" class="topbar-section">
+					<span id="other-text" >iPlayer</span>
+				</div>
+				
+				<div id="other-div" class="topbar-section">
+					<span id="other-text" >TV</span>
+				</div>
+				
+				<div id="other-div" class="topbar-section">
+					<span id="other-text" >Radio</span>
+				</div>
+				
+				<div id="other-div" class="topbar-section">
+					<span id="other-text" >More</span>
+				</div>
+				
+				<div>
+					<img src="downarrow.png" id="downarrow">
+				</div>
+				
+				<div class="topbar-section">
+					<input type="text" id="search" value="Search">
+					<input type="image" src="search.png" id="search">
+				</div>
+			
+		</div>
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div id="menu-bar-container">
+			<div id="menu-bar">
+				<h1> NEWS </h1>
+				<div id="local-news">
+				<a href="https://www.completewebdevelopercourse.com/clone/">Find local news </a>
+				
+				</div>
+			</div>
+				
+		</div>
+		
+		<div class="clear"></div>
+			<div id="third-line-comtainer">
+				<div id="third-line">
+					<div id="Home"> <a href="">Home </a></div>
+					<div class="third-line-text"><a href="">UK</a> </div>
+					<div class="third-line-text"><a href="">World </a></div>
+					<div class="third-line-text"><a href="">Business</a></div>
+					<div class="third-line-text"><a href="">Politics</a></div>
+					<div class="third-line-text"><a href="">Tech </a></div>
+					<div class="third-line-text"><a href="">Science</a></div>
+					<div class="third-line-text"><a href="">Health </a></div>
+					<div class="third-line-text"><a href="">Education</a> </div>
+					<div class="third-line-text"><a href="">Entertainment & Arts </a></div>
+					<div class="third-line-text"><a href="">Video & Audio</a> </div>
+					<div class="third-line-text"><a href="">More</a></div>
+					<div><img src="downarrow2.png" id="downarrow2"></div>
+				</div>
+			</div>
+			
+		<div class="clear"></div>
+		
+		<div id="page-container"> 
+			
+				<h2>Technology</h2>
+				<div id="left-part"> 
+					
+					<h3><a href="https://www.bbc.com/news/technology-35350789">Asda bug exposed payment details </a></h3>
+					
+					<p><a href="https://www.bbc.com/news/technology-35350789">Security vulnerabilities that put <br>
+																				customers at risk have affected <br>
+																				Asda's website for a couple of years,<br>
+																				a security expert has revealed.
+																				</a>
+					</p>
+					
+					<div id="two-hours-ago"> 2 hours ago | <a href=""> Technology </a></div>
+					<hr id="linija">
+				</div>
+					<div> <img src="asda.png" id="asda"></div>
+					
+					<div  id="jedan">
+					<a href="https://www.bbc.co.uk/news/technology-33409594" > Surveillance firm hit in hack attack </a>
+					</div>
+					<div id="dva">
+					<a href="https://www.bbc.com/news/technology-29279213" > eBay flaw has existed for months </a>
+					</div>
+					
+			
+		</div>
+		<div class="clear"></div>
+		<div id="watch-listen">
+			<div id="naslov">
+				Watch/Listen
+			</div>
+			<div id="prvi-dio">
+				<img src="prva-slika.png" id="prva-slika">
+				<a href="https://www.bbc.co.uk/programmes/p03fyd3z" >UK science chef backs blockchains</a>
+			
+			</div>
+		
+		
+		</div>
+	</body>
+
+</html>
